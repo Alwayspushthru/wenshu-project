@@ -1,6 +1,10 @@
-# 文枢前端（React + Next.js）
+# 杭电校园助手前端（React + Next.js）
 
 基于 Next.js 15（App Router）+ React 19 + TypeScript 的聊天界面，与后端（Python FastAPI）**前后端分离**。
+
+界面以校徽蓝为参考，主色为 `#1f4f9a`，统一登录页、学生问答和管理后台。名称为“杭电校园助手”，首页快捷入口对应已入库的证明书补办、图书馆校外访问、研究生办事和2025—2026学年校历。校历入口明确标注适用学年。
+
+校标来源：杭州电子科技大学官网当前使用的矢量素材 `https://www.hdu.edu.cn/_upload/tpl/02/12/530/template530/images/logo.svg`，存于 `public/hdu/wordmark-white.svg`。圆形校徽变体通过SVG视口裁切与单色替换生成，蓝色为界面主题参考色，不宣称为官方标准色值。`SchoolMark`组件统一引用本地素材，页面无需加载外部图片。
 
 三种角色的完整页面操作流程、权限差异与核心概念说明见：[文枢前端页面使用指南](../design_files/文枢-前端页面使用指南.md)。
 
@@ -36,6 +40,8 @@ web/
 ## 运行
 
 ### Docker（推荐，见根 docker-compose）
+
+在项目根目录运行 `make up` 启动已有镜像；首次启动或修改代码后运行 `make up-build`。前后端就绪后，终端会显示可点击的前端地址。
 
 访问 http://localhost:8080 （Next.js 反代 `/api` 到 `backend:8000`）。
 
