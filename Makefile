@@ -1,8 +1,9 @@
-.PHONY: help up down logs build doctor ingest seed backend-run backend-test pi-run pi-doctor web-dev
+.PHONY: help up up-build down logs build doctor ingest seed backend-run backend-test pi-run pi-doctor web-dev
 
 help:
-	@echo "文枢 · 常用命令"
-	@echo "  make up             docker compose 启动全栈"
+	@echo "杭电校园助手 · 常用命令"
+	@echo "  make up             启动现有镜像，就绪后显示前端地址"
+	@echo "  make up-build       重新构建并启动，就绪后显示前端地址"
 	@echo "  make down           docker compose 停止"
 	@echo "  make logs           跟踪日志"
 	@echo "  make doctor         模型连通性自检（Python）"
@@ -15,7 +16,10 @@ help:
 	@echo "  make web-dev        本地运行前端 dev server"
 
 up:
-	docker compose up --build
+	@bash scripts/start.sh
+
+up-build:
+	@bash scripts/start.sh --build
 
 down:
 	docker compose down
