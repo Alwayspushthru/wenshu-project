@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { dashboard, type Dashboard, type User } from "@/lib/api";
 import Icon, { type IconName } from "./Icon";
+import SchoolMark from "./SchoolMark";
 import styles from "./admin/admin.module.css";
 import OverviewPanel from "./admin/OverviewPanel";
 import DeptPanel from "./admin/DeptPanel";
@@ -39,19 +40,19 @@ export default function AdminDashboard({ user, onLogout }: { user: User; onLogou
 
   return <div className={styles.wrap}>
     <aside className={`${styles.sidebar} ${sideOpen ? styles.sidebarMobileOpen : ""}`}>
-      <div className={styles.brand}><span className={styles.brandSeal}>文</span><span><b>文枢</b><small>WENSHU CONTROL</small></span></div>
+      <div className={styles.brand}><SchoolMark className={styles.brandSeal} inverse/><span><b>杭电校园助手</b><small>校园知识管理工作台</small></span></div>
       <div className={styles.scopeCard}><span className={styles.scopeIcon}><Icon name={isSuper ? "shield" : "building"} size={17}/></span><span><b>{isSuper ? "超级管理空间" : "部门治理空间"}</b><small>{isSuper ? "全局策略与事实控制平面" : `${user.dept_id} · 数据已强制隔离`}</small></span></div>
       <nav className={styles.nav}>{TABS.map(t => <button key={t.key} className={`${styles.navItem} ${tab === t.key ? styles.navActive : ""}`} onClick={() => {setTab(t.key);setSideOpen(false)}}>
         <span className={styles.navIcon}><Icon name={t.icon} size={18}/></span><span><b>{t.label}</b><small>{t.sub}</small></span>
         {t.key === "review" && (data?.pending_review_count || 0) > 0 && <em>{data!.pending_review_count}</em>}
       </button>)}</nav>
-      <div className={styles.sidebarFoot}><div className={styles.live}><span/> CONTROL PLANE ONLINE</div><button onClick={onLogout}><Icon name="logout" size={16}/>退出系统</button></div>
+      <div className={styles.sidebarFoot}><div className={styles.live}><span/> 杭州电子科技大学 · 校园知识服务</div><button onClick={onLogout}><Icon name="logout" size={16}/>退出系统</button></div>
     </aside>
     {sideOpen && <button className={styles.backdrop} onClick={() => setSideOpen(false)} aria-label="关闭菜单"/>}
     <section className={styles.workspace}>
       <header className={styles.header}>
-        <button className={styles.mobileMenu} onClick={() => setSideOpen(true)}><Icon name="menu"/></button>
-        <div><div className={styles.breadcrumb}>控制台 / {isSuper ? "全局" : user.dept_id}</div><h1>{current.label}</h1><p>{current.sub}</p></div>
+        <button className={styles.mobileMenu} aria-label="展开管理菜单" onClick={() => setSideOpen(true)}><Icon name="menu"/></button>
+        <div><div className={styles.breadcrumb}>杭电校园助手 / {isSuper ? "全校管理" : "部门管理"}</div><h1>{current.label}</h1><p>{current.sub}</p></div>
         <div className={styles.headerRight}><button className={styles.refreshBtn} onClick={refresh}><Icon name="refresh" size={16}/>刷新数据</button><div className={styles.avatar}>{user.name.slice(0,1)}</div><div className={styles.userInfo}><b>{user.name}</b><small>{isSuper ? "超级管理员" : "部门管理员"}</small></div></div>
       </header>
       <main className={styles.body}>

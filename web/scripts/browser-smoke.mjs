@@ -6,7 +6,7 @@ import { join } from "node:path";
 const chrome = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const base = "http://localhost:8080";
 const roles = [
-  { key: "student", username: "student", password: "student123", expected: "制度问答工作台" },
+  { key: "student", username: "student", password: "student123", expected: "校园问答工作台" },
   { key: "department", username: "jwc_admin", password: "admin123", expected: "部门治理空间" },
   { key: "super", username: "admin", password: "admin123", expected: "超级管理空间" },
 ];
