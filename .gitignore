@@ -30,6 +30,7 @@ data/
 volumes/
 chroma_data/
 *.log
+/school_materials/*.zip
 
 # OS / IDE
 .DS_Store

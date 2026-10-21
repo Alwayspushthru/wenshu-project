@@ -1,0 +1,102 @@
+[
+  {
+    "title": "补办学位证明书、毕业证明书须知",
+    "department": "教务处",
+    "source_page": "https://jwc.hdu.edu.cn/2025/0919/c13474a285891/page.htm",
+    "page_published_at": "2025-09-19",
+    "retrieved_at": "2026-10-21",
+    "original_file": "school_materials/hdu/originals/教务处/补办学位证明书、毕业证明书须知.html",
+    "sha256": "070f8bb5eb8768f398c1535f66aba44c94b5cca6ceba0a2334ab50a81cf2d0e8",
+    "prepared_file": "department_files/杭州电子科技大学/教务处/补办学位证明书、毕业证明书须知.md",
+    "prepared_sha256": "cb1d0e2f8d84e22c9d9faa7ea0c438278f3d947ed643409517c93bd5aef29314",
+    "attachments": []
+  },
+  {
+    "title": "图书馆校外访问指南",
+    "department": "图书馆",
+    "source_page": "https://tsg.hdu.edu.cn/xwfw/list.htm",
+    "page_published_at": null,
+    "retrieved_at": "2026-10-21",
+    "original_file": "school_materials/hdu/originals/图书馆/校外访问.html",
+    "sha256": "cecbe391c79531ffa1370f73ff2b465a7f428f23454fcd0783473bf17abe83c1",
+    "prepared_file": "department_files/杭州电子科技大学/图书馆/图书馆校外访问指南.md",
+    "prepared_sha256": "2c8556b175a862f4ebf6a0a76273ebc2a6d0022262916da63133d2c4b623a505",
+    "attachments": []
+  },
+  {
+    "title": "研究生知识产权用印申请表",
+    "department": "电子信息学院",
+    "source_page": "https://ee.hdu.edu.cn/2021/0408/c13558a150894/page.htm",
+    "page_published_at": "2022-01-07",
+    "retrieved_at": "2026-10-21",
+    "original_file": "school_materials/hdu/originals/电子信息学院/研究生知识产权用印申请表.html",
+    "sha256": "cfabd265c4aa9ce24764fa4bfd5a0a0d933ba5e15a37b7a662ece0c01b14520b",
+    "prepared_file": "department_files/杭州电子科技大学/电子信息学院/研究生知识产权用印申请表.md",
+    "prepared_sha256": "6884660478b80d099341ff2181cf77a5d53b04251d6f6d28081d5c1c956bceba",
+    "attachments": [
+      {
+        "source_url": "https://ee.hdu.edu.cn/_upload/article/files/55/6a/ae9fd6e7408484349be5d773ecdb/dc8b0ba8-8f28-4e66-8caa-77f94bd2c2aa.doc",
+        "original_file": "school_materials/hdu/originals/电子信息学院/研究生知识产权用印申请表.doc",
+        "sha256": "738c82e07f3a2423699cdfb7b88edd148aa19f4a7177bd80dd94b10a4cc26408"
+      }
+    ]
+  },
+  {
+    "title": "关于启用研究生自助打印服务系统的通知",
+    "department": "电子信息学院",
+    "source_page": "https://ee.hdu.edu.cn/2021/0104/c13558a150895/page.htm",
+    "page_published_at": "2022-01-07",
+    "retrieved_at": "2026-10-21",
+    "original_file": "school_materials/hdu/originals/电子信息学院/关于启用研究生自助打印服务系统的通知.html",
+    "sha256": "c2bffbe12b91b92e9c3eaa829b8d7aa35d6c384dda52f6558e85f0bc4baeee66",
+    "prepared_file": "department_files/杭州电子科技大学/电子信息学院/关于启用研究生自助打印服务系统的通知.md",
+    "prepared_sha256": "fa4877e6c1d73f0d00dd33edc62cb39c3f70ad54c8d947557bd6ef45b8be5b49",
+    "attachments": []
+  },
+  {
+    "title": "研究生导师变更（转、增）申请表",
+    "department": "电子信息学院",
+    "source_page": "https://ee.hdu.edu.cn/2021/0928/c13558a150890/page.htm",
+    "page_published_at": "2022-01-07",
+    "retrieved_at": "2026-10-21",
+    "original_file": "school_materials/hdu/originals/电子信息学院/研究生导师变更（转、增）申请表.html",
+    "sha256": "dd0ece79ec0562d88d8521040249cd2c6890e6fd36f12753f153781bf575b9aa",
+    "prepared_file": "department_files/杭州电子科技大学/电子信息学院/研究生导师变更（转、增）申请表.md",
+    "prepared_sha256": "67a9a3f1b0c68e981141bbfca277acb9140168b44ad419e62168176a2bb544bf",
+    "attachments": [
+      {
+        "source_url": "https://ee.hdu.edu.cn/_upload/article/files/06/5c/0bbd795741cbb565f8bd53c44655/0a5261f7-3d19-4e30-852e-92224879b44d.doc",
+        "original_file": "school_materials/hdu/originals/电子信息学院/研究生导师变更（转、增）申请表.doc",
+        "sha256": "667ef9b8877bdd864101c36cacadb159d91a5b72427a057adeb70c85ea6cd9fb"
+      }
+    ]
+  },
+  {
+    "title": "研究生增、退修课程申请表",
+    "department": "电子信息学院",
+    "source_page": "https://ee.hdu.edu.cn/2021/0928/c13558a150889/page.htm",
+    "page_published_at": "2022-01-07",
+    "retrieved_at": "2026-10-21",
+    "original_file": "school_materials/hdu/originals/电子信息学院/研究生增、退修课程申请表.html",
+    "sha256": "07bf5f57367efd70ed198add83f4dbc25208670ef47ba8023dca01645dfac60b",
+    "prepared_file": "department_files/杭州电子科技大学/电子信息学院/研究生增、退修课程申请表.md",
+    "prepared_sha256": "cff7d72b124dffde886bffa77b84a012010f7ed9d294b0f1e446ffc75b092982",
+    "attachments": [
+      {
+        "source_url": "https://ee.hdu.edu.cn/_upload/article/files/3d/b0/cbb482104ae9bf0a3363c348bf5c/68bf66ab-1e35-4fc5-9a0b-7f3f27d562fc.doc",
+        "original_file": "school_materials/hdu/originals/电子信息学院/研究生增、退修课程申请表.doc",
+        "sha256": "b0f61537d2428a92c808085c9e39edce1085872ef6d1f5837b9eea553aa359c2"
+      }
+    ]
+  },
+  {
+    "title": "2025-2026学年校历",
+    "department": "教务处",
+    "source_type": "user_provided_image",
+    "original_file": "school_materials/hdu/originals/校历/杭州电子科技大学2025-2026学年校历.jpg",
+    "sha256": "7027f08cf5d59c127ea23cd9ef60a1117f5280c9a2253fadfe627356e525d3c7",
+    "structured_file": "backend/app/school_profiles/hdu_calendar_2025_2026.json",
+    "prepared_file": "department_files/杭州电子科技大学/教务处/校历/2025-2026学年校历.md",
+    "prepared_sha256": "594219175ab6247fb29d502d9ba2c4eef6f8e7918901518db8265d52bd9c77fa"
+  }
+]

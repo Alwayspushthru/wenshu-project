@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "assistant_name": "杭电校园助手",
+  "scope": "学校素材导入阶段，前端适配前的验证快照",
+  "frontend_changed": false,
+  "official_webpages": 6,
+  "official_word_attachments": 3,
+  "user_calendar_images": 1,
+  "active_documents": 7,
+  "chunks": 19,
+  "vector_records": 19,
+  "related_tests_passed": 32,
+  "live_qa_expected_sources_found": 4,
+  "live_qa_cases": 4,
+  "scenarios": [
+    "证明书补办",
+    "图书馆校外访问",
+    "研究生导师变更表单",
+    "2025-2026学年春季开课与暑假"
+  ],
+  "calendar_check": {
+    "spring_classes_start": "2026-03-05",
+    "summer_vacation_start": "2026-07-06"
+  },
+  "source_manifest": "school_materials/hdu/manifest.json"
+}
