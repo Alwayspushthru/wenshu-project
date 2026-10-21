@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
     # ---- 服务 ----
-    app_name: str = "文枢 · 跨部门文档处理与问答助手"
+    app_name: str = "杭电校园助手"
     host: str = "0.0.0.0"
     port: int = 8000
     log_level: str = "INFO"

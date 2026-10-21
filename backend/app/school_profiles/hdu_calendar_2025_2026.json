@@ -1,0 +1,68 @@
+{
+  "school_name": "杭州电子科技大学",
+  "assistant_name": "杭电校园助手",
+  "academic_year": "2025-2026",
+  "current_semester": null,
+  "usage_note": "用户指定的2025-2026学年校历，不代表查询时的当前学期。只能用于该学年；其他学年的时间安排须另查来源，不得推断。",
+  "source": {
+    "type": "user_provided_image",
+    "file": "school_materials/hdu/originals/校历/杭州电子科技大学2025-2026学年校历.jpg",
+    "transcription_date": "2026-10-21",
+    "note": "按用户提供图片逐项转录；图片未提供选课、退课、奖学金、开题等截止日期。"
+  },
+  "semesters": [
+    {
+      "name": "2025-2026学年第一学期",
+      "image_period": "2025年9月-2026年1月",
+      "teaching_week_1_monday": "2025-09-15",
+      "staff_return_date": "2025-09-05",
+      "new_students": {
+        "applicable_to": "2025级本科新生、研究生新生",
+        "registration_date": "2025-09-08",
+        "orientation": {"start": "2025-09-09", "end": "2025-09-14", "includes": "开学典礼"}
+      },
+      "other_students_registration": {"start": "2025-09-13", "end": "2025-09-14"},
+      "classes_start": "2025-09-15",
+      "new_undergraduate_military_training": {"start": "2025-10-09", "end": "2025-10-22"},
+      "holidays": [
+        {"name": "国庆节、中秋节", "start": "2025-10-01", "end": "2025-10-08"},
+        {"name": "元旦", "date": "2026-01-01"}
+      ],
+      "makeup_classes": [
+        {"attendance_date": "2025-09-28", "replaces_date": "2025-10-07"},
+        {"attendance_date": "2025-10-11", "replaces_date": "2025-10-08"}
+      ],
+      "sports_meeting": {"start": "2025-10-30", "end": "2025-10-31"},
+      "exam_period": {"start": "2026-01-12", "end": "2026-01-22", "type": "全校停课考试"},
+      "student_winter_vacation_start": "2026-01-23",
+      "staff_rotation_leave_start": "2026-01-27",
+      "notes": ["9月短学期实践环节由各学院制定计划。"]
+    },
+    {
+      "name": "2025-2026学年第二学期",
+      "image_period": "2026年3月-2026年7月",
+      "teaching_week_1_monday": "2026-03-02",
+      "staff_return_date": "2026-03-02",
+      "student_registration_date": "2026-03-04",
+      "classes_start": "2026-03-05",
+      "holidays": [
+        {"name": "清明节", "date": "2026-04-05"},
+        {"name": "劳动节", "date": "2026-05-01"},
+        {"name": "端午节", "date": "2026-06-19"}
+      ],
+      "graduation_education_and_departure": {
+        "applicable_to": "本科生、研究生",
+        "start": "2026-06-10",
+        "end": "2026-06-20",
+        "includes": ["毕业典礼", "学位授予仪式"]
+      },
+      "exam_period": {"start": "2026-06-25", "end": "2026-07-05", "type": "全校停课考试"},
+      "student_summer_vacation_start": "2026-07-06",
+      "staff_rotation_leave_start": "2026-07-10",
+      "notes": [
+        "暑假期间，各学院根据教学计划开展短学期实践教学环节、学科竞赛集训、暑期国际化课程等。",
+        "2026年国家法定节假日的调休及教学安排，另行通知；上列节日日期不表示完整放假区间。"
+      ]
+    }
+  ]
+}

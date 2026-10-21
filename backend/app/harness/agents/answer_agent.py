@@ -10,7 +10,7 @@ from app.integrations.pi_runtime import PiAgentRuntimeClient
 
 logger = get_logger(__name__)
 
-ANSWER_PROMPT = """你是学校制度咨询助手"文枢"。请基于给定的制度条款回答用户问题。
+ANSWER_PROMPT = """你是杭州电子科技大学的"杭电校园助手"。请基于给定的制度条款回答用户问题。
 
 【必须遵守的规则】
 {rules}

@@ -18,10 +18,13 @@ DEPT_MAP = {
     "学生处": "dept_xsc",
     "财务处": "dept_cwc",
     "人事处": "dept_rsc",
-    "后勤": "dept_hqaq",      # 后勤与安全保卫部（已合并，无独立后勤处）
+    "后勤": "dept_hqaq",      # 兼容旧示例目录
     "研究生院": "dept_yjsy",
     "中法学院": "dept_zfxy",
+    "电子信息学院": "dept_zfxy",
     "安全保卫": "dept_hqaq",
+    "保卫处": "dept_hqaq",
+    "图书馆": "dept_tsg",
 }
 
 SUFFIXES = {".pdf", ".docx", ".doc", ".md", ".markdown", ".txt", ".html", ".htm"}
